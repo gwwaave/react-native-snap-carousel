@@ -1282,7 +1282,7 @@ export default class Carousel extends Component {
         };
     }
 
-    _getComponentStaticProps () {
+    _getComponentStaticProps (): Object {
         const { hideCarousel } = this.state;
         const {
             containerCustomStyle,
